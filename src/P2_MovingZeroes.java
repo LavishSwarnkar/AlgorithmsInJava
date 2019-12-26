@@ -5,6 +5,11 @@ public class P2_MovingZeroes {
     public static void main(String args[]){
         System.out.println(Arrays.toString(moveZeroes(new int[]{0, 1, 0, 0, 3, 4, 0})));
         System.out.println(Arrays.toString(moveZeroes(new int[]{10, 1, 3, 4})));
+
+        /* Output :
+            [1, 3, 4, 0, 0, 0, 0]
+            [10, 1, 3, 4]
+         */
     }
 
     private static int[] moveZeroes(int[] arr){
