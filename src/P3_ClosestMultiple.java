@@ -1,6 +1,8 @@
 public class P3_ClosestMultiple {
 
     public static void main(String args[]){
+        System.out.println(getClosestMultiple2(-16, 6));
+
         System.out.println(getClosestMultiple(5, 2));
         System.out.println(getClosestMultiple(13, 6));
         System.out.println(getClosestMultiple(15, 6));
@@ -40,6 +42,10 @@ public class P3_ClosestMultiple {
         if(rem < 0)
             return n - (Math.abs(rem) >= Math.abs(m)/2 ? Math.abs(m) - Math.abs(rem) : rem);
         return rem == 0 ? n : n + (rem >= Math.abs(m)/2 ? Math.abs(m)-rem : -rem);
+    }
+
+    private static int getClosestMultiple2(int n, int m){
+        return (int) (m * Math.round(((double)n/Math.abs(m))));
     }
 
 }
