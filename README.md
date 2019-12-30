@@ -27,4 +27,11 @@ Input: \[4,2,1]\
 Output: False\
 Explanation: You can't get a non-decreasing array by modify at most one element.
 
-                                                   
+**[5. Look&SaySequence :](src/P5_LookAndSaySequence.java)** Given n, the no. of rows, print the following pattern :\
+1\
+11\
+21\
+1211\
+111221\
+312211\
+13112221                                            
