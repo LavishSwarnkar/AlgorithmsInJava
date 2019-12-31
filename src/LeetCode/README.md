@@ -79,3 +79,7 @@ https://leetcode.com/problems/binary-watch/
 [**17. LetterCasePermutations**](P17_LetterCasePermutations.java)
 
 https://leetcode.com/problems/letter-case-permutation/
+
+[**18. Remove Element**](P18_RemoveElements.java)
+
+https://leetcode.com/problems/remove-element
