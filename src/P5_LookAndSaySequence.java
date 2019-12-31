@@ -2,7 +2,7 @@ public class P5_LookAndSaySequence {
 
     public static void main(String args[]){
         String prevString = "1";
-        for(int i=1 ; i<=7 ; i++){
+        for(int i=1 ; i<=5 ; i++){
             System.out.println(prevString);
             prevString = getLookAndSaySeq(prevString);
         }
