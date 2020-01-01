@@ -1,6 +1,4 @@
-package LeetCode;
-
-import jdk.nashorn.api.tree.Tree;
+package LeetCode.Dec2019;
 
 public class P11_FlattenTree {
 

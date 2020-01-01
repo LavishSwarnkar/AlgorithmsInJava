@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Dec2019;
 
 import java.util.Arrays;
 import java.util.HashMap;

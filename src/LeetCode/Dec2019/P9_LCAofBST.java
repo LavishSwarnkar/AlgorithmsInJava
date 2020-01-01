@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Dec2019;
 
 public class P9_LCAofBST {
 
