@@ -1,3 +1,5 @@
+package Miscellaneous;
+
 public class P4_NonDecreasing {
 
     public static void main(String args[]){

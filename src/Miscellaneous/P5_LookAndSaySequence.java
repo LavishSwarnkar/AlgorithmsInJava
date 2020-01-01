@@ -1,3 +1,5 @@
+package Miscellaneous;
+
 public class P5_LookAndSaySequence {
 
     public static void main(String args[]){

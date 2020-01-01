@@ -1,3 +1,5 @@
+package Miscellaneous;
+
 import java.util.Arrays;
 
 public class P1_MatrixSpiralTraversal {

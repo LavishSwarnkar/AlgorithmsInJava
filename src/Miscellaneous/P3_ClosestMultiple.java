@@ -1,3 +1,5 @@
+package Miscellaneous;
+
 public class P3_ClosestMultiple {
 
     public static void main(String args[]){
