@@ -34,4 +34,16 @@ Explanation: You can't get a non-decreasing array by modify at most one element.
 1211\
 111221\
 312211\
-13112221                                            
+13112221    
+
+**[6. Repeated Product Numbers :](src/Miscellaneous/P6_RepeatedProductNumbers.java)** 
+The number 1827 is an interesting number, because 1827 = 21*87, and all of the same digits appear on both sides of the =. The number 136948 has the same property: 136948=146 * 938.
+                                                                                      
+Such numbers are called Repeated Product Numbers. More precisely, a number 'p' is a Repeated Product Number if it has a pair of factors, 'a' and 'b', where a*b=p, and together, a and b have exactly the same digits, in exactly the same quantities, as 'p'. None of the numbers p, a or b can have leading zeros and allow a and b to have differing number of digits, and p to have any number of digits. Here are some more examples:\
+126 = 6 * 21\
+10251 = 51 * 201\
+702189 = 9 * 78021\
+29632 = 32 * 926                                                                                      
+
+Given a number X, find the smallest Repeated Product Number which is greater than or equal to X.
+                                        

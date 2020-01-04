@@ -4,7 +4,7 @@ public class TreeNode {
     public int val;
     public TreeNode left;
     public TreeNode right;
-    TreeNode(int x) { val = x; }
+    public TreeNode(int x) { val = x; }
 
     public static TreeNode createTreeFromArray(int[] vals) {
         TreeNode[] nodes = new TreeNode[vals.length+1];
