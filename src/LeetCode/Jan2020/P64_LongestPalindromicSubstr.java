@@ -1,6 +1,6 @@
 package LeetCode.Jan2020;
 
-public class P63_LongestPalindromicSubstr {
+public class P64_LongestPalindromicSubstr {
 
     public static void main(String args[]){
         System.out.println(longestPalindrome("abacdoabap"));
