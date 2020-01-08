@@ -27,8 +27,8 @@ public class TreeNode {
     public String toString() {
         StringBuilder builder = new StringBuilder();
         builder.append(val).append(" ");
-        builder.append(left == null ? "" : left);
-        builder.append(right == null ? "" : right);
+        /*builder.append(left == null ? "" : left);
+        builder.append(right == null ? "" : right);*/
         return builder.toString();
     }
 
